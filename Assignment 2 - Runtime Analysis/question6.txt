@@ -1,0 +1,4 @@
+Question 6 Answer:
+
+	This is possible, because big-Oh is an asymptotic measure of performance - it gives only the rate of growth, once n is sufficiently large. Given functions f(n) and g(n), we say that f(n) is O(g(n)) if there are positive constants c and n0 such that f(n) <= cg(n) for n >= n0. The values of c and k must be fixed for function f and must not depend on n. 
+	Say you want to compare Insertion Sort (an O(n2) algorithm) with Quick Sort (an O(nlogn) algorithm). We know from empirical evidence that Insertion Sort is faster than Quick Sort when n is small (smallness can depend). That’s why optimized Quick Sort implementations switch to Insertion Sort when the subarray is less than 10 or so items.

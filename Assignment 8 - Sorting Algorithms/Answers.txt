@@ -1,0 +1,13 @@
+1.2) The best case runtime complexity would be O(n). The best case input would be a list that was already sorted.
+1.3) The worst case runtime complexity would be O(n^2). The worst case input would be a list that was sorted in reverse order.
+
+2.2) The worst case runtime complexity would be O(n^2).
+
+3.2) The worst case runtime complexity would be O(n^2).
+
+4.2) The worst case runtime complexity would be O(nlogn).
+
+5.2) The best case runtime complexity of SummerSort is O(n^2). The best case input would be if the list was sorted from least to greatest.
+5.3)The worst case runtime complexity would also be O(n^2). The worst case input would be if the list was sorted from greatest to least.
+
+6.2) The best case runtime complexity would be O(nlogn).
